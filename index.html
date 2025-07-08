@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>To Do List</h2>
+        <p class="time" id="currentTime"></p>
+
+        <div class="input-container">
+            <input type="text" id="taskInput" class="task-input" placeholder="Add new task...">
+            <button class="add-btn" onclick="addTask()">Add</button>
+        </div>
+        <div class="task-section" id="taskList"></div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
